@@ -1,0 +1,13 @@
+<form [formGroup]="form" (submit)="enviar()">
+  <div>
+    <label>Nome</label>
+    <input type="text" formControlName="nome" name="nome"/>
+  </div>
+  <div>
+      <label>idade</label>
+      <input type="text" formControlName="idade" name="idade"/>
+  </div>
+  <div>
+    <button>Ok</button>
+  </div>
+</form>
